@@ -1,0 +1,16 @@
+INSERT INTO TB1(name,reg_no)
+VALUES ('yuva','125'),
+('SHREE','123'),('steven','124'),('sam','126');
+INSERT INTO TB2(s_no,name,email,active)
+VALUES ('01','yuva','yuva@gmail.com','yes'),
+('02','SHREE','shree@gmail.com','no'),('03','steven','steve@gmail.com','no'),
+('03','sam','sam@gmail.com','yes');
+INSERT INTO TB3(age,year)
+VALUES ('18','2001');
+INSERT INTO TB4(s_no,status,y_n)
+VALUES ('01','backup','yes');
+INSERT INTO TB5(status,active)
+VALUES ('good','yes');
+UPDATE tb3 
+SET age='15',year='2002';
+DELETE FROM tb5;

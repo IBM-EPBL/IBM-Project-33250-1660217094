@@ -1,0 +1,12 @@
+h1{
+    background-color: aqua;
+    font-size: medium;
+    position: relative;
+}
+img{ 
+    background: local;
+    width: 225px;
+    height: 205px;
+    position: relative;
+    
+}

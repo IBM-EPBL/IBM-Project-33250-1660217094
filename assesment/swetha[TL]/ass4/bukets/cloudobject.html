@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hospital</title>
+        <style>
+            body{
+                background-image: url("https://assign-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/hos.jpg");background-repeat: no-repeat;background-position-x: 100px;
+        
+            }
+        </style>
+    </head>
+    <body>
+                <script>
+                    window.watsonAssistantChatOptions = {
+                      integrationID: "6bf41ecb-076e-4c06-ac73-b966761739bf", // The ID of this integration.
+                      region: "au-syd", // The region your integration is hosted in.
+                      serviceInstanceID: "82a054e6-7e3d-4162-9990-dafa39e1246b", // The ID of your service instance.
+                      onLoad: function(instance) { instance.render(); }
+                    };
+                    setTimeout(function(){
+                      const t=document.createElement('script');
+                      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+                      document.head.appendChild(t);
+                    });
+                  </script>
+    </body>
+</html>
+       

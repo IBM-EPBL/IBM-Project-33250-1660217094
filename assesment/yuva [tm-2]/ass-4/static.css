@@ -1,0 +1,12 @@
+h1{
+    padding-right: 25px;
+    background:linear-gradient(to right ,pink,rgb(111, 196, 241));
+    font: size 85px;
+    position:relative;
+}
+img{ 
+    width: 200px;
+    height: 175px;
+    position: relative;
+    
+}

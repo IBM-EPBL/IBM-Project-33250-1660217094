@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>buckets</title>
+        
+</head>
+    <body>
+        <style>
+            h1{
+    background-color: aqua;
+    font-size: medium;
+    position: relative;
+}
+img{ 
+    background: local;
+    width: 225px;
+    height: 205px;
+    position: relative;
+    
+}
+        </style>
+        <h1> IBM object storage</h1>
+    <img src = "https://bckobj.s3.jp-tok.cloud-object-storage.appdomain.cloud/1.jpg">
+    <img src = "https://bckobj.s3.jp-tok.cloud-object-storage.appdomain.cloud/cake.jpg">
+    <img src = "https://bckobj.s3.jp-tok.cloud-object-storage.appdomain.cloud/cartoon.jpg">
+    <img src = "https://bckobj.s3.jp-tok.cloud-object-storage.appdomain.cloud/original.jpg" >
+    <img src = "https://bckobj.s3.jp-tok.cloud-object-storage.appdomain.cloud/panda.jpg">
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "f02413f4-17df-4e66-8dca-7dcc282ee1ef", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "c282acbd-9456-45cf-8c86-a9e0e9440029", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+      
+      <div class="footer">
+      </div>
+           
+    
+    </body>
+    </html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Expense Tracker</title>
+</head>
+<body>
+<div class="track-home">
+    <div class="track-left">
+        <div class="track-avatar">
+            <img class="avatar" src="https://tse4.mm.bing.net/th?id=OIP.KLTEcyOp9mQGsfyPoJI2KwAAAA&pid=Api&P=0" width="50px" height="25px">
+            <span > username </span>
+        </div>
+        <hr class="solid-line">
+        <div class="track-items">
+            <div>
+                <i class="fa-solid fa-folder"></i>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.3dZUZjsmMeITKK4KIrDXjQHaHa&pid=Api&P=0" width="20px" height="10px">
+                <span>Dashboard</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-simple"></i>
+               <img src="https://tse2.mm.bing.net/th?id=OIP._RlE14SC3q7yuzpW1e_tnQHaHa&pid=Api&P=0" width="20px" height="10px">
+
+              <span>Dashboard</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-gear"></i>
+              
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Settings-icon-symbol-vector.png" width="20px" height="10px">
+                <span>Settings</span>
+            </div>
+            <div>
+                <i class="fa-solid fa-right-from-bracket"></i>
+                  <img src="https://tse1.mm.bing.net/th?id=OIP.3dZUZjsmMeITKK4KIrDXjQHaHa&pid=Api&P=0" width="20px" height="10px">
+                <span>Logout</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="track-right">
+        <div class="track-right__top">
+            <div class="track-right__top__types">
+                <i class="fa-solid fa-bed fa-2x"></i>
+                <span class="track-type__amount">select range</span>
+               <input name="type" placeholder="Transaction range" type="option" list="trans-amount">
+                        <datalist id="trans-amount">
+                            <option value="above10,000">10,000-15,000</option>
+                            <option value="above 15,000">15,000-30,000</option>
+                            <option value="above 30,000">30,000-95,000</option>
+                            <option value="above 1,00,000">1,00,000</option>
+                        </datalist>
+                <span>Medical Expenses</span>
+            </div>
+            <div class="track-right__top__types">
+                <i class="fa-solid fa-house fa-2x"></i>
+                <span class="track-type__amount">₹25,700</span>
+               <input name="type" placeholder="Transaction range" type="option" list="trans-amount">
+                        <datalist id="trans-amount">
+                            <option value="above10,000">10,000-15,000</option>
+                            <option value="above 15,000">15,000-30,000</option>
+                            <option value="above 30,000">30,000-95,000</option>
+                            <option value="above 1,00,000">1,00,000</option>
+                        </datalist>
+                <span>House Expenses</span>
+            </div>
+            <div class="track-right__top__types">
+                <i class="fa-solid fa-graduation-cap fa-2x"></i>
+                <span class="track-type__amount">₹17,000</span>
+               <input name="type" placeholder="Transaction range" type="option" list="trans-amount">
+                        <datalist id="trans-amount">
+                            <option value="above10,000">10,000-15,000</option>
+                            <option value="above 15,000">15,000-30,000</option>
+                            <option value="above 30,000">30,000-95,000</option>
+                            <option value="above 1,00,000">1,00,000</option>
+                        </datalist>
+                <span>Educational Loan</span>
+            </div>
+            <div class="track-right__top__types">
+                <i class="fa-solid fa-piggy-bank fa-2x"></i>
+                <span class="track-type__amount">₹15,000</span>
+               <input name="type" placeholder="Transaction range" type="option" list="trans-amount">
+                        <datalist id="trans-amount">
+                            <option value="above10,000">10,000-15,000</option>
+                            <option value="above 15,000">15,000-30,000</option>
+                            <option value="above 30,000">30,000-95,000</option>
+                            <option value="above 1,00,000">1,00,000</option>
+                        </datalist>
+                <span>Savings</span>
+            </div>
+            <div class="track-right__top__types">
+                <i class="fa-solid fa-money-check-dollar fa-2x"></i>
+                <span class="track-type__amount">₹9,732</span>
+               <input name="type" placeholder="Transaction range" type="option" list="trans-amount">
+                        <datalist id="trans-amount">
+                            <option value="above10,000">10,000-15,000</option>
+                            <option value="above 15,000">15,000-30,000</option>
+                            <option value="above 30,000">30,000-95,000</option>
+                            <option value="above 1,00,000">1,00,000</option>
+                        </datalist>
+                <span>Others</span>
+            </div>
+        </div>
+        <div class="track-right__bottom">
+            <div class="track-transactions">
+            <h3>Recent Transactions</h3>
+                <div class="transact-header">
+                    <span class="date-header"><b>Date</b></span>
+                    <span class="transaction-header"><b>Transaction</b></span>
+                    <span class="type-header"><b>Type</b></span>
+                    <span class="amount-header"><b>Amount</b></span>
+                </div>
+            <div class="total-items">
+               
+                <div class="transact-item">
+                    <span class="date-header">08/11/2022</span>
+                    <span class="transaction-header">water supply</span>
+                    <div class="type-header">House Expenses</div>
+                    <span class="amount-header">₹250</span>
+                </div>
+                
+            </div>
+
+            </div>
+            <div class="track-add">
+                <h3>Add Expenditure</h3>
+                <form action="/add-expenditure" method="post">
+                    <div class="expenditure-input">
+                        <input name="transaction" placeholder="Transaction" type="text">
+                    </div>
+                    <div class="expenditure-input">
+                        <input name="type" placeholder="Transaction Type" type="text" list="trans-type">
+                        <datalist id="trans-type">
+                            <option value="Medical Expenses">
+                            <option value="House Expenses">
+                            <option value="Education" >
+                            <option value="Savings" >
+                            <option value="Others" >
+                        </datalist>
+                    </div>
+                    <div class="expenditure-input">
+                        <input name="amount" placeholder="Amount" type="number" min="0">
+                    </div>
+                    <div class="expenditure-input">
+                        <input name="date" placeholder="Date" type="date">
+                    </div>
+                    <button type="submit" class="btn-submit">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
